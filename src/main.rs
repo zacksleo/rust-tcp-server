@@ -2,6 +2,7 @@ use std::io::prelude::*;
 use std::io::Write;
 use std::net::{TcpListener, TcpStream};
 
+// 缓存大小
 const BUFFER_SIZE: usize = 1024;
 
 fn handle_connections(mut stream: TcpStream) {
